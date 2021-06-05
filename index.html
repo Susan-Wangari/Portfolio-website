@@ -9,13 +9,28 @@
 <body>
     <nav id="navbar">
         <a href="#welcome-section">Home</a>
-        <a href="">About</a>
-        <a href="">Resume</a>
-        <a href="">Contact</a>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
     </nav>
     <section id="welcome-section">
         <h1>Susan Wangari</h1>
         <p>I am a passionate <b>Web Developer</b></p>
+    </section>
+    <section id="about">
+        <p>I am a web Developer.</p>
+        <h3>Skills</h3>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Bootstrap</li>
+            <li>JavaScript</li>
+            <li>Node JS</li>
+        </ul>
+        <h3>Links</h3>
+        <p><a href="https://github.com/Susan-Wangari"><img src="github.png" alt="github icon" target="_blank" width="30" height="20"></a></p>
+        <p><a href="https://twitter.com/coder_muchacha"><img src="twitter.png" alt="twitter icon" target="_blank" width="30" height="20"></a></p>
+        <p><a href="https://www.linkedin.com/in/susan-wangari/"><img src="linkedin.png" alt="linkedin icon" target="_blank" width="30" height="20"></a></p>
     </section>
     <section id="projects">
         <h2>Some of my projects include:</h2>
@@ -25,6 +40,16 @@
         <p>Made with JavaScript</p>
         <h4 class="project-tile"><a href="https://github.com/Susan-Wangari/digital-clock">Digital Clock</a></h4>
         <p>Made with HTML and CSS</p>
+    </section>
+    <section id="contact">
+        <h3>Contact Me</h3>
+        <form method="POST">
+            <input type="text" id="name" placeholder="Name">
+            <input type="email" id="email" placeholder="Your email address">
+            <textarea>Message</textarea>
+            <input type="submit" value="Send Message">
+
+        </form>
     </section>
 </body>
 </html>
